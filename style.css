@@ -26,6 +26,7 @@ img {
 }
 /** END wrapper **/
 
+
 /** BEGIN header **/
 #header {
 	height: 200px;
@@ -46,9 +47,10 @@ img {
 			font-weight: bold;
 			padding: 12px 15px;
 			text-decoration: none;
+			transition: all 0.8s ease;
 		}
 		#header .pages li a:hover {
-			text-decoration: underline;
+			font-weight: bold;	
 		}
 	#header form {
 		width: 240px; height: 26px;
@@ -78,10 +80,14 @@ img {
 		padding: 30px 0 36px 20px;
 	}
 		#header .logo h1 {
-			font-size: 2.7em;
+			font-size: 30px;
 		}
 			#header .logo h1 a {
 				text-decoration: none;
+				transition: all 0.3s ease;
+			}
+			#header .logo h1 a:hover {
+				font-size: 30.5px
 			}
 		#header .logo p {
 			color: #888888;
@@ -98,23 +104,150 @@ img {
 		clear: both;
 		list-style-type: none;
 		height: 40px;
-		border-bottom: 5px solid #003366;
+		border-bottom: 5px solid rgba(44,44,44, 0.8);
 		border-top: 1px solid #DDDDDD;
 		overflow: hidden;
+		background-color: rgba(44,44,44, 0.8);
 	}
 		#header .categories li {
 			float: left;
-			background-color: rgba(238, 238, 238, 0.4);
 		}
 		#header .categories li a {
 			display: block;
 			padding: 13px;
-			color: #333333;
+			color: white;
+			font-weight:550; 
 			border-right: 1px solid #dddddd;
 			text-decoration: none;
+			transition: all 0.3s ease;
 		}
 		#header .categories li a:hover {
-			background-color: #004966;
+			background-color: #00b963;
 			color: #ffffff;
+			padding-left: 25px;
+			padding-right: 25px;
 		}
 /** END header **/
+
+
+/** BEGIN sidebar **/
+#sidebar {
+	width: 320px;
+	float: right;
+	margin-right: 2px;
+}
+	#sidebar .box {
+		border: 1px solid #DDDDDD;
+		margin-bottom: 10px;
+	}
+		#sidebar .box h2 {
+			font-size: 0.9em;
+			text-transform: uppercase;
+			color: white;
+			font-weight: bold;
+			background-color: rgba(44,44,44, 0.8);
+			padding: 10px;
+			border-bottom: 1px solid #dddddd;
+		}
+		#sidebar .box ul {
+			list-style-type: square;
+			list-style-position: inside;
+			padding: 10px;
+		}
+			#sidebar .box ul li {
+				line-height: 1.4em;
+				color: #888888;
+				padding: 2px 0;
+			}
+			#sidebar .box ul li a {
+				color: #888888;
+				text-decoration: none;
+			}
+			#sidebar .box ul li a:hover {
+				color: #003366;
+				font-weight: bold;
+				text-decoration: underline;
+			}
+		#sidebar .box .video {
+			padding: 12px;
+		}
+		#sidebar .box .flickr {
+			padding: 1px;
+			text-align: center;
+			margin: 0;
+		}
+			#sidebar .box .flickr img {
+				margin: 2px;
+				height: 65	px;
+				width: 65px;
+			}
+		#sidebar .box .tags {
+			padding: 10px;
+		}
+			#sidebar .box .tags a {
+				color: #888888;
+				text-decoration: none;
+			}
+			#sidebar .box .tags a:hover {
+				color: #003366;
+				text-decoration: underline;
+			}
+		#sidebar .box .popular {
+			list-style-type: none;
+			list-style-position: outside;
+		}
+			#sidebar .box .popular li {
+				padding: 5px 0;
+			}
+			#sidebar .box .popular li a {
+				color: #003366;
+				text-decoration: underline;
+				font-weight: bold;
+			}
+			#sidebar .box .popular li p {
+				padding-top: 5px;
+			}
+		#sidebar .box .sponsors {
+			padding: 10px 10px 0;
+			text-align: center;
+		}
+			#sidebar .box .sponsors img {
+				margin: 6px;
+			}
+		#sidebar .box .bookmarks {
+			list-style-type: none;
+			list-style-position: outside;
+			padding: 5px 10px 10px;
+		}
+			#sidebar .box .bookmarks li {
+				font-family: Arial;
+				border-bottom: 1px dotted #CCCCCB;
+				padding: 5px 0 5px 20px;
+				background-position: 0 6px;
+				background-repeat: no-repeat;
+			}
+			#sidebar .box .bookmarks li a {
+				color: #DA3372;
+			}
+			#sidebar .box .bookmarks li.rss { 
+				background-image: url(images/rss.gif); 
+			}
+			#sidebar .box .bookmarks li.twt {
+				 background-image: url(images/twitter.gif); 
+				}
+			#sidebar .box .bookmarks li.fcb {
+				 background-image: url(images/facebook.gif);
+				 }
+			#sidebar .box .bookmarks li.ldi { 
+				background-image: url(images/linkedin.gif); 
+			}
+	#sidebar .l {
+		float: left;
+		width: 155px;
+	}
+	#sidebar .r {
+		float: right;
+		width: 155px;
+	}
+/** END sidebar **/
+
