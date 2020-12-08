@@ -1,0 +1,120 @@
+* {
+	margin: 0; padding: 0;
+}
+body {
+	text-align: center;
+	font: 12px Verdana;
+	color: #000000;
+	background: #F7F6F6 url(images/background.gif) repeat-x 0 0;
+}
+a {
+	color: #034f9b;
+}
+a:hover {
+	text-decoration: none;
+	color: #04cc6f;
+}
+img {
+	border: 0;
+}
+
+/** BEGIN wrapper **/
+#wrapper {
+	width: 100%;
+	margin: auto auto;
+	text-align: left;
+}
+/** END wrapper **/
+
+/** BEGIN header **/
+#header {
+	height: 200px;
+	margin-bottom: 15px;
+}
+	#header .pages {
+		list-style-type: none;
+		height: 39px;
+		padding-top: 3px;
+		float: left;
+	}
+		#header .pages li {
+			float: left;
+		}
+		#header .pages li a {
+			display: block;
+			font-size: 13px;
+			font-weight: bold;
+			padding: 12px 15px;
+			text-decoration: none;
+		}
+		#header .pages li a:hover {
+			text-decoration: underline;
+		}
+	#header form {
+		width: 240px; height: 26px;
+		background: url(images/search.gif) no-repeat 0 8px;
+		float: right;
+		margin-right: 0;
+		padding: 8px 30px 0 0;
+	}
+		#header form input {
+			border: 0;
+			float: left;
+			width: 170px;
+			margin: 5px;
+		}
+		#header form button {
+			border: 0;
+			text-indent: -9999px;
+			font-size: 0;
+			width: 60px; height: 26px;
+			float: right;
+			background-color: transparent;
+			cursor: pointer;
+		}
+	#header .logo {
+		clear: both;
+		float: left;
+		padding: 30px 0 36px 20px;
+	}
+		#header .logo h1 {
+			font-size: 2.7em;
+		}
+			#header .logo h1 a {
+				text-decoration: none;
+			}
+		#header .logo p {
+			color: #888888;
+			font-weight: bold;
+			font-size: 1.2em;
+			text-transform: uppercase;
+		}
+	#header .sponsor {
+		float: right;
+		padding: 25px 0;
+		margin-right: 25px;
+	}
+	#header .categories {
+		clear: both;
+		list-style-type: none;
+		height: 40px;
+		border-bottom: 5px solid #003366;
+		border-top: 1px solid #DDDDDD;
+		overflow: hidden;
+	}
+		#header .categories li {
+			float: left;
+			background-color: rgba(238, 238, 238, 0.4);
+		}
+		#header .categories li a {
+			display: block;
+			padding: 13px;
+			color: #333333;
+			border-right: 1px solid #dddddd;
+			text-decoration: none;
+		}
+		#header .categories li a:hover {
+			background-color: #004966;
+			color: #ffffff;
+		}
+/** END header **/
