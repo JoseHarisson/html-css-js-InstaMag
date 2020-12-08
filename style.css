@@ -165,6 +165,23 @@ img {
 	#content .recent .o {
 		background-color: #EEEEEE;
 	}
+#content {
+}
+
+.main-page{
+	display: flex;
+}
+.main-page div#content{
+	flex: 0 0 65%;
+}
+.main-page div#sidebar{
+	flex: 0 0 35%;
+	justify-content: flex-end;
+}
+.main-page div{
+	flex: 0 0 50%;
+}
+
 #content .single {
 	padding: 10px;
 }
@@ -210,6 +227,9 @@ img {
 		margin-bottom: 10px;
 		line-height: 1.6em;
 	}
+	#comments form {
+		
+	}
 	#comments form p {
 		margin-bottom: 5px;
 	}
@@ -239,6 +259,21 @@ img {
 			font-family: Verdana;
 			padding: 2px 6px;
 		}
+	.commentdetails {
+		margin-top: 25px;
+	}
+	.commentauthor {
+		margin-bottom: 5px !important;
+		font-weight: bold;
+	}
+	.commentdate {
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		color: #909090;
+	}
+	.required {
+		color: #ff0000;
+	}
 
 /** END Content **/
 
