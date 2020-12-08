@@ -131,6 +131,123 @@ img {
 /** END header **/
 
 
+
+
+/** BEGIN Content **/
+#content .recent {
+	border: 1px solid #DDDDDD;
+}
+	#content .recent .post {
+		padding: 15px;
+		clear: both;
+	}
+		#content .recent .post h2 {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+			#content .recent .post h2 a {
+				text-decoration: none;
+			}
+		#content .recent .post img {
+			float: right;
+			padding: 5px;
+			border: 1px solid #DDDDDD;
+			background-color: #FFFFFF;
+			margin-left: 20px;
+		}
+		#content .recent .post p {
+			line-height: 1.4em;
+			margin-bottom: 10px;
+		}
+		#content .recent .post .readmore {
+			font-size: 0.8em;
+		}
+	#content .recent .o {
+		background-color: #EEEEEE;
+	}
+#content .single {
+	padding: 10px;
+}
+	#content .single h2 {
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	#content .single p {
+		line-height: 1.5em;
+		margin-bottom: 10px;
+	}
+	#content .single ul, #content .single ol {
+		list-style-position: inside;
+		margin-bottom: 10px;
+	}
+	#content .single li {
+		line-height: 1.5em;
+		padding: 2px 0;
+	}
+	#content .single blockquote {
+		padding: 10px 10px 5px;
+		margin-bottom: 10px;
+		background-color: #eeeeee;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #e0e0e0;
+	}
+	#content .single h3, #content .single h4, #content .single h5, #content .single h6 {
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+#comments {
+	padding: 10px;
+}
+	#comments h2 {
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	#comments a {
+		text-decoration: none;
+	}
+	#comments p {
+		margin-bottom: 10px;
+		line-height: 1.6em;
+	}
+	#comments form p {
+		margin-bottom: 5px;
+	}
+		#comments form input {
+			margin-right: 5px;
+		}
+		#comments form input, textarea {
+			border: 1px solid #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			padding: 4px;
+			background-position: 4px 4px;
+			background-repeat: no-repeat;
+		}
+		#comments form input {
+			width: 240px;
+			border: 1px solid #cccccc;
+		}
+		#comments form textarea {
+			width: 350px;
+			padding: 4px 4px !important;
+			border: 1px solid #cccccc;
+		}
+		#comments form button {
+			border: 1px solid #a0a0a0;
+			font-size: 1em;
+			font-family: Verdana;
+			padding: 2px 6px;
+		}
+
+/** END Content **/
+
+
+
+
+
+
+
 /** BEGIN sidebar **/
 #sidebar {
 	width: 320px;
