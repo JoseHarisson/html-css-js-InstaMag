@@ -6,6 +6,7 @@ body {
 	font: 12px Verdana;
 	color: #000000;
 	background: #F7F6F6 url(images/background.gif) repeat-x 0 0;
+	
 }
 a {
 	color: #034f9b;
@@ -139,12 +140,14 @@ img {
 	#sidebar .box {
 		border: 1px solid #DDDDDD;
 		margin-bottom: 10px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				
 	}
 		#sidebar .box h2 {
-			font-size: 0.9em;
+			font-size: 1em;
 			text-transform: uppercase;
 			color: white;
-			font-weight: bold;
+			font-weight: bolder;
 			background-color: rgba(44,44,44, 0.8);
 			padding: 10px;
 			border-bottom: 1px solid #dddddd;
@@ -162,9 +165,10 @@ img {
 			#sidebar .box ul li a {
 				color: #888888;
 				text-decoration: none;
+				transition: all 0.2s ease;
 			}
 			#sidebar .box ul li a:hover {
-				color: #003366;
+				color: #00b963;
 				font-weight: bold;
 				text-decoration: underline;
 			}
@@ -178,8 +182,15 @@ img {
 		}
 			#sidebar .box .flickr img {
 				margin: 2px;
-				height: 65	px;
-				width: 65px;
+				height: 68px;
+				width: 68px;
+				transition: all 0.3s ease;
+			}
+			
+			#sidebar .box .flickr img:hover {
+				transform: scale(1.05);
+				height: 68px;
+				width: 68px;
 			}
 		#sidebar .box .tags {
 			padding: 10px;
@@ -220,7 +231,7 @@ img {
 			padding: 5px 10px 10px;
 		}
 			#sidebar .box .bookmarks li {
-				font-family: Arial;
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 				border-bottom: 1px dotted #CCCCCB;
 				padding: 5px 0 5px 20px;
 				background-position: 0 6px;
@@ -228,6 +239,10 @@ img {
 			}
 			#sidebar .box .bookmarks li a {
 				color: #DA3372;
+				transition: all 0.05s ease;
+			}
+			#sidebar .box .bookmarks li a:hover {
+				color: rgb(146, 0, 56);
 			}
 			#sidebar .box .bookmarks li.rss { 
 				background-image: url(images/rss.gif); 
