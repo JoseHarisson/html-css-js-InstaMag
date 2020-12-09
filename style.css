@@ -438,15 +438,6 @@ img {
 .hero .post {
 	padding: 0;
 }
-.hero .post .featured-img-1{
-	background: url(images/tomb-raider.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 266px;
-	position:relative;
-}
-
 .post-cat {
 	color: white;
 	background-color: rgba(0,0,0,0.7);
@@ -468,8 +459,20 @@ a.post-title{
 	text-decoration: none;
 }
 
+.hero .post .featured-img-1{
+	background: url(images/tomb-raider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+	transition: all 0.3s ease;
+}
+
 .hero .post .featured-img-1:hover {
 	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/tomb-raider.jpg);
+	cursor: pointer;
+	padding-top: 20px;
 }
 
 .hero .post .featured-img-2{
@@ -479,11 +482,14 @@ a.post-title{
 	background-position: center;
 	min-height: 266px;
 	position:relative;
+	transition: all 0.35s ease;
 }
 
 
 .hero .post .featured-img-2:hover {
 	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/tiger.jpeg);
+	cursor: pointer;
+	padding-top: 20px;
 }
 
 
@@ -494,11 +500,14 @@ a.post-title{
 	background-position: center;
 	min-height: 266px;
 	position:relative;
+	transition: all 0.35s ease;
 }
 
 
 .hero .post .featured-img-3:hover {
 	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/naruto.jpeg);
+	cursor: pointer;
+	padding-top: 20px;
 }
 
 .left-post{
@@ -522,11 +531,14 @@ a.post-title{
 	background-position: center;
 	min-height: 266px;
 	position:relative;
+	transition: all 0.35s ease;
 }
 
 
 .hero .post .featured-img-4:hover {
 	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/vevo.jpg);
+	cursor: pointer;
+	padding-top: 20px;
 }
 
 
@@ -537,11 +549,14 @@ a.post-title{
 	background-position: center;
 	min-height: 266px;
 	position:relative;
+	transition: all 0.35s ease;
 }
 
 
 .hero .post .featured-img-5:hover {
 	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/edgeoftomorrow.jpg);
+	cursor: pointer;
+	padding-top: 20px;
 }
 
 
@@ -552,11 +567,14 @@ a.post-title{
 	background-position: center;
 	min-height: 266px;
 	position:relative;
+	transition: all 0.35s ease;
 }
 
 
 .hero .post .featured-img-6:hover {
 	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/Dessert.jpg);
+	cursor: pointer;
+	padding-top: 20px;
 }
 
 
