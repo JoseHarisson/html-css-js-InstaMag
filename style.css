@@ -418,3 +418,150 @@ img {
 	}
 /** END sidebar **/
 
+
+/** BEGIN categorie **/
+.hero .container .row {
+	display: flex;
+	margin-top: 5px;
+	flex-direction: row;
+}
+.hero .container .row .left-post{
+	flex: 26%; 
+}
+.hero .container .row .middle-post{
+	flex: 48%; 
+}
+.hero .container .row .right-post{
+	flex: 26%;
+}
+
+.hero .post {
+	padding: 0;
+}
+.hero .post .featured-img-1{
+	background: url(images/tomb-raider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+}
+
+.post-cat {
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 3px 10px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
+}
+a.post-title{
+	color:white;
+	position: absolute;
+	bottom: 15px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.hero .post .featured-img-1:hover {
+	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/tomb-raider.jpg);
+}
+
+.hero .post .featured-img-2{
+	background: url(images/tiger.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+}
+
+
+.hero .post .featured-img-2:hover {
+	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/tiger.jpeg);
+}
+
+
+.hero .post .featured-img-3{
+	background: url(images/naruto.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+}
+
+
+.hero .post .featured-img-3:hover {
+	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/naruto.jpeg);
+}
+
+.left-post{
+	margin-left: 2px;
+}
+.right-post{
+	margin-right: 2px;
+}
+.left-post, .middle-post{
+	border-right: 1px solid #FFFFFF;
+}
+.bottom-post{
+ border-top: 1px solid #FFFFFF;
+}
+
+
+.hero .post .featured-img-4{
+	background: url(images/vevo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+}
+
+
+.hero .post .featured-img-4:hover {
+	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/vevo.jpg);
+}
+
+
+.hero .post .featured-img-5{
+	background: url(images/edgeoftomorrow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+}
+
+
+.hero .post .featured-img-5:hover {
+	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/edgeoftomorrow.jpg);
+}
+
+
+.hero .post .featured-img-6{
+	background: url(images/Dessert.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 266px;
+	position:relative;
+}
+
+
+.hero .post .featured-img-6:hover {
+	background-image: linear-gradient(rgba(0, 189, 110,0.1),rgba(0, 189, 110,0.1), rgba(0,189,110,0.9)), url(images/Dessert.jpg);
+}
+
+
+
+
+
+
+/** END categorie **/
