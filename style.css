@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	font: 12px Verdana;
 	color: #000000;
-	background: #F7F6F6 url(images/background.gif) repeat-x 0 0;
+	background: rgba(237, 241, 237, 0.829) url(images/background.gif) repeat-x 0 0;
 	
 }
 a {
@@ -81,14 +81,14 @@ img {
 		padding: 30px 0 36px 20px;
 	}
 		#header .logo h1 {
-			font-size: 30px;
+			font-size: 2.4em;
 		}
 			#header .logo h1 a {
 				text-decoration: none;
 				transition: all 0.3s ease;
 			}
 			#header .logo h1 a:hover {
-				font-size: 30.5px
+				font-size: 29px;
 			}
 		#header .logo p {
 			color: #888888;
@@ -587,6 +587,33 @@ a.post-title{
 
 
 /** END categorie **/
+
+/** BEGIN REVIEW **/
+
+.post-img img {
+	width: 100%; 
+	max-width: 290px;
+	justify-content: center;
+	height: 250px;
+}
+
+.main-content .container .row{
+	margin: 20px 0 0 0 ;
+}
+.main-content .container .row div .block-container .row{
+	display: flex;
+	margin : 20px 2px 20px 2px;
+}
+.main-content .container .row div .block-container .row .col1 .post-block{ 
+	flex: 50%;
+	margin: 0 10px 0 0	;
+}
+.main-content .container .row div .block-container .row .col2 .post-block{ 
+	flex: 50%;
+	margin: 0 0 0 10px;
+}
+
+/** END Review**/
 
 
 /** BEGIN LightBox **/
