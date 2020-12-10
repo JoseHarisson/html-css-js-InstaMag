@@ -27,6 +27,11 @@ img {
 }
 /** END wrapper **/
 
+@media (max-width: 744px){
+	.sponsor, #header .form{
+		display: none;	
+	}
+} 
 
 /** BEGIN header **/
 #header {
@@ -54,11 +59,11 @@ img {
 			font-weight: bold;	
 		}
 	#header form {
-		width: 240px; height: 26px;
+		width: 200px; height: 26px;
 		background: url(images/search.gif) no-repeat 0 8px;
 		float: right;
 		margin-right: 0;
-		padding: 8px 30px 0 0;
+		padding: 8px 70px 0 0;
 	}
 		#header form input {
 			border: 0;
@@ -858,3 +863,4 @@ footer .widget-container .container .row .about h1:hover{
 }
 
 /** END Light box**/
+  
