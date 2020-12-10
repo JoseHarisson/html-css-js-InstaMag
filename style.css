@@ -165,9 +165,6 @@ img {
 	#content .recent .o {
 		background-color: #EEEEEE;
 	}
-#content {
-}
-
 .main-page{
 	display: flex;
 	width: 100%;
@@ -434,6 +431,7 @@ img {
 	display: flex;
 	margin-top: 5px;
 	flex-direction: row;
+	height: 550px;
 }
 .hero .container .row .left-post{
 	flex: 26%; 
