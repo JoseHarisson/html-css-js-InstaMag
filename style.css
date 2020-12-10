@@ -673,6 +673,70 @@ a.post-title{
 
 /** END Review**/
 
+/** BEGIN Footer **/
+
+.footer{
+	border-top: 1px solid #d6d6d6;
+	background-image: linear-gradient(to right, rgba(100,100,100, .92), rgba(34, 38, 46, 0.685));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 25px;
+	padding-bottom: 0;
+}
+
+.widget-container{
+	padding-bottom: 25px;
+}
+
+footer .widget-container .container .row{
+	display: flex;
+	margin-top: 5px;
+	
+}
+footer .widget-container .container .row .about{
+	flex: 380px;
+	padding: 20px 0 20px 0;
+}
+footer .widget-container .container .row div{
+	flex: 33%;
+} 
+footer .widget-container .container .row .about p{
+	padding-top: 20px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	font-style: italic;
+	font-size: 1.3em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .widget-container .container .row .about h1{
+	padding-left: 20px;
+	color: #455668;
+	width: 150px;
+	padding-right: 0;
+	margin-right: 0;
+	transition: all 0.3s ease;
+}
+footer .widget-container .container .row .about h1:hover{
+	padding-left: 22px;
+	color: #0c1f3b;
+	cursor: pointer;
+	font-size: 24.5px;
+}
+
+.copyright-section {
+	border-top: 1px solid #929292;
+	background-color: #333333;
+	color: #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-size: 13px;
+}
+
+/** END Footer **/
+
+
 
 /** BEGIN LightBox **/
 
