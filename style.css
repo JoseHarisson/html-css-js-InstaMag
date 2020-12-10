@@ -681,12 +681,12 @@ a.post-title{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	padding-top: 25px;
+	padding-top: 2px;
 	padding-bottom: 0;
 }
 
 .widget-container{
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
 
 footer .widget-container .container .row{
