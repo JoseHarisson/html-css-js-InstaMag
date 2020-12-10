@@ -170,13 +170,15 @@ img {
 
 .main-page{
 	display: flex;
+	width: 100%;
 }
 .main-page div#content{
-	flex: 0 0 65%;
+	flex: 0 0 70%; 
 }
-.main-page div#sidebar{
-	flex: 0 0 35%;
-	justify-content: flex-end;
+.main-page div#sidebar{ 
+	right: 0;
+	flex: 0 0 30%; 
+	justify-content: flex-end; 
 }
 .main-page div{
 	flex: 0 0 50%;
@@ -492,7 +494,9 @@ a.post-title{
 	padding-top: 20px;
 }
 
-
+.post .image{
+	display: none;
+}
 .hero .post .featured-img-3{
 	background: url(images/naruto.jpeg);
 	background-repeat: no-repeat;
@@ -617,10 +621,11 @@ a.post-title{
     padding: 20px 0;
 }
 .lightbox .lightbox-content{
-    position: relative  ;
+	position: relative  ;
 }
 .lightbox.open .lightbox-content{
     animation: lightboxImage .5s ease;
+	margin-right: 50px;
 }
 
 @keyframes lightboxImage{
@@ -700,7 +705,7 @@ a.post-title{
     left: 30px;
 }
 .lightbox .lightbox-controls .next-item{
-    right: 30px;
+    right:100px;
 }
 
 /** END Light box**/

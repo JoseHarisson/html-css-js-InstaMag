@@ -42,10 +42,10 @@ const lightbox=document.querySelector(".lightbox"),
         }
 
       function changeItem(){
-          imgSrc=categorieItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
+          imgSrc=categorieItems[itemIndex].querySelector(".image").getAttribute("src");
           lightboxImg.src = imgSrc;
-          lightboxText.innerHTML=portfolioItems[itemIndex].querySelector("h4").innerHTML;
-          lightboxCounter.innerHTML= (itemIndex+1) + " of " + totalPortfolioItem;
+          lightboxText.innerHTML=categorieItems[itemIndex].querySelector("a").innerHTML;
+          lightboxCounter.innerHTML= (itemIndex+1) + " of " + totalCategorieItems;
       }
 
       //close Lightbox
